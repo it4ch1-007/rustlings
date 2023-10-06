@@ -6,9 +6,10 @@
 // Execute `rustlings hint generics1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
 
 fn main() {
-    let mut shopping_list: Vec<?> = Vec::new();
+    let mut shopping_list: Vec<&'static str> = Vec::new();
+    //THE STATIC DENOTES THAT THE VARIABLE INPUT ARGUMENT IS AVAILABLE FOR WHOLE TIME FOR THE FUNCTION
     shopping_list.push("milk");
 }
