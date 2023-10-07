@@ -10,12 +10,13 @@
 // Execute `rustlings hint tests1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
 
 #[cfg(test)]
 mod tests {
     #[test]
     fn you_can_assert() {
-        assert!();
+        assert!(true);
     }
 }
+//assert!() will TEST IF THE TRUE NEXPRESSION IS IN ASSERT FUNCTION AND WILL RETURN TRUE IF THE CONDITION IS TRUE
